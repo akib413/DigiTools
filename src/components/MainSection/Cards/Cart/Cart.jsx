@@ -1,6 +1,11 @@
 import DeletedCart from "../../../ui/DeletedCart";
 
 const Cart = ({selectedCards, setSelectedCards}) => {
+    const handleDeleteSelectedCard = (card) => {
+        const filterCard = selectedCards.filter(selectedCard => selectedCard.name !== card.name)
+        setSelectedCards(filterCard)
+    }
+
     return (
         <div>
             {
@@ -9,7 +14,7 @@ const Cart = ({selectedCards, setSelectedCards}) => {
                         <p>Go to Products tab to select products</p>
                     </div>) : (selectedCards.map(card => {
                         return(
-                            <DeletedCart card={card}></DeletedCart>
+                            <DeletedCart card={card} handleDeleteSelectedCard={handleDeleteSelectedCard}></DeletedCart>
                         )
                     }))
             }

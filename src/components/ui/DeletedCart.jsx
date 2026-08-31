@@ -1,4 +1,4 @@
-const DeletedCart = ({ card }) => {
+const DeletedCart = ({ card, handleDeleteSelectedCard }) => {
     return (
         <div className="font px-50">
             <div className="flex items-center justify-between rounded-2xl bg-[#f9fafc] p-5 mb-4">
@@ -14,7 +14,7 @@ const DeletedCart = ({ card }) => {
                     </div>
                 </div>
                 <div className="">
-                    <p className="text-[16px] text-[#ff3980] font-bold cursor-pointer">Remove</p>
+                    <p onClick={() => handleDeleteSelectedCard(card)} className="text-[16px] text-[#ff3980] font-bold cursor-pointer">Remove</p>
                 </div>
             </div>
         </div>
