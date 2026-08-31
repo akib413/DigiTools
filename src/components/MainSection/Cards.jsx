@@ -10,11 +10,11 @@ const Cards = ({dataPromise}) => {
     const [selectedCards, setSelectedCards] = useState([])
 
     return (
-        <div>
+        <div className="font">
             <div className="text-center px-125 py-15 space-y-3">
                 <h3 className="text-[45px] font-bold">Premium Digital Tools</h3>
                 <p className="text-[#627382]">Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
-                <div className="mt-5">
+                <div className="mt-5 flex justify-center gap-2">
                     <a onClick={() => setSelectedType('products')} className={`btn ${selectedType === 'products' ? 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white' : ''} rounded-full`}>Products</a>
                     <a onClick={() => setSelectedType('cart')} className={`btn ${selectedType === 'cart' ? 'bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white' : ''} rounded-full`}>Cart {selectedCards.length}</a>
                 </div>

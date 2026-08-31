@@ -8,7 +8,7 @@ const SelectedProducts = ({card, selectedCards, setSelectedCards}) => {
     }
     
     return (
-        <div>
+        <div className="font">
             <div className="card bg-base-100 shadow-sm">
                                 <div className="card-body">
                                     <span className="badge badge-xs badge-warning ml-auto">{card.tagType}</span>
