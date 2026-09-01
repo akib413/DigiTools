@@ -5,14 +5,21 @@ import Cards from './components/MainSection/Cards'
 import Navbar from './components/Navbar/Navbar'
 import Stats from './components/Stats/Stats'
 import Steps from './components/Steps/Steps'
+import Pricing from './components/Pricing/Pricing'
 
 const fetchData = async () => {
   const res = await fetch("/data.json")
   return res.json()
 }
 
+const fetchPrice = async () => {
+  const res = await fetch("/price.json")
+  return res.json()
+}
+
 function App() {
   const dataPromise = fetchData()
+  const pricePromise = fetchPrice()
 
   return (
     <>
@@ -24,6 +31,9 @@ function App() {
       <Cards dataPromise={dataPromise}></Cards>
     </Suspense>
     <Steps></Steps>
+    <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+      <Pricing pricePromise={pricePromise}></Pricing>
+    </Suspense>
 
     </>
   )
