@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Basic",
+    "description": "Perfect for getting started",
+    "price": 9,
+    "features": [
+      "5 projects",
+      "Basic templates",
+      "Email support",
+      "1 GB storage"
+    ]
+  },
+  {
+    "name": "Pro",
+    "description": "Best for growing professionals",
+    "price": 19,
+    "features": [
+      "Unlimited projects",
+      "Premium templates",
+      "Priority support",
+      "10 GB storage",
+      "Advanced customization"
+    ]
+  },
+  {
+    "name": "Enterprise",
+    "description": "Powerful tools for large teams",
+    "price": 49,
+    "features": [
+      "Unlimited projects",
+      "All premium templates",
+      "24/7 support",
+      "100 GB storage",
+      "Advanced analytics",
+      "Team collaboration"
+    ]
+  }
+]

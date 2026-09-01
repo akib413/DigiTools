@@ -12,7 +12,7 @@ const Steps = () => {
                     <p className="text-[16px] text-[#627382]">Start using premium digital tools in minutes, not hours.</p>
                 </div>
                 <div className="flex gap-5">
-                    <div className="shadow-xl p-10">
+                    <div className="shadow-xl p-10 bg-white">
                         <div className="flex justify-end">
                             <p className="w-10 h-10 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full flex items-center justify-center">01</p>
                         </div>
@@ -24,7 +24,7 @@ const Steps = () => {
                             <p className="text-[#627382]">Sign up for free in seconds. No credit card required to get started.</p>
                         </div>
                     </div>
-                    <div className="shadow-xl p-10">
+                    <div className="shadow-xl p-10 bg-white">
                         <div className="flex justify-end">
                             <p className="w-10 h-10 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full flex items-center justify-center">02</p>
                         </div>
@@ -37,7 +37,7 @@ const Steps = () => {
                                 that fit your needs.</p>
                         </div>
                     </div>
-                    <div className="shadow-xl p-10">
+                    <div className="shadow-xl p-10 bg-white">
                         <div className="flex justify-end">
                             <p className="w-10 h-10 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full flex items-center justify-center">03</p>
                         </div>
