@@ -7,6 +7,7 @@ import Stats from './components/Stats/Stats'
 import Steps from './components/Steps/Steps'
 import Pricing from './components/Pricing/Pricing'
 import Workflow from './components/Workflow/Workflow'
+import Footer from './components/Footer/Footer'
 
 const fetchData = async () => {
   const res = await fetch("/data.json")
@@ -36,6 +37,7 @@ function App() {
       <Pricing pricePromise={pricePromise}></Pricing>
     </Suspense>
     <Workflow></Workflow>
+    <Footer></Footer>
 
     </>
   )
