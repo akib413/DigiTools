@@ -1,7 +1,7 @@
 const PricingCard = ({ price }) => {
     return (
         <div className="font">
-            <div className={`card ${price.name === "Pro" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white" : "bg-white"} shadow-sm p-6 h-[425px] flex flex-col`}>
+            <div className={`card ${price.name === "Pro" ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white" : "bg-white"} shadow-sm p-6 h-106.25 flex flex-col`}>
                 
                 <div className="">
                     <h2 className="text-2xl font-bold">{price.name}</h2>

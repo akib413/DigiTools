@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Stats from './components/Stats/Stats'
 import Steps from './components/Steps/Steps'
 import Pricing from './components/Pricing/Pricing'
+import Workflow from './components/Workflow/Workflow'
 
 const fetchData = async () => {
   const res = await fetch("/data.json")
@@ -34,6 +35,7 @@ function App() {
     <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
       <Pricing pricePromise={pricePromise}></Pricing>
     </Suspense>
+    <Workflow></Workflow>
 
     </>
   )
