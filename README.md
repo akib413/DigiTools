@@ -1,3 +1,23 @@
+# Project Name 
+Digital Tools
+
+# Description
+Digital Tools is a modern and user-friendly web application that provides a collection of useful digital tools and services in one place.
+
+# Technology
+1. React.js
+2. Tailwind CSS, DaisyUI
+3. JavaScript (ES6+)
+4. React-Toastify (NPM Package)
+5. JSON (for product data)
+
+# 3 Features
+1. It has products tab. Where anyone add to item in cart
+2. In cart tab anyone can see total price of services
+3. It has three pricing category
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
