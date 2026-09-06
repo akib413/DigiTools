@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const SelectedProducts = ({card, selectedCards, setSelectedCards}) => {
-    const [isSelected, setIsSelected] = useState([false])
+    const [isSelected, setIsSelected] = useState(false)
     const handleSelected = () => {
         setIsSelected(true)
         setSelectedCards([...selectedCards, card])
+        toast.success(`${card.name} add to cart`)
     }
     
     return (
@@ -33,7 +35,7 @@ const SelectedProducts = ({card, selectedCards, setSelectedCards}) => {
                                         }
                                     </ul>
                                     <div className="mt-6">
-                                        <button onClick={handleSelected} className="btn btn-block bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full">Buy Now</button>
+                                        <button onClick={handleSelected} disabled = {isSelected ? true : false} className="btn btn-block bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full">Buy Now</button>
                                     </div>
                                 </div>
                             </div>

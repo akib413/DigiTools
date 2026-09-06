@@ -1,7 +1,7 @@
 const DeletedCart = ({ card, handleDeleteSelectedCard }) => {
     return (
         <div className="font px-50">
-            <div className="flex items-center justify-between rounded-2xl bg-[#f9fafc] p-5 mb-4">
+            <div className="flex items-center justify-between rounded-2xl bg-[#f9fafc] p-5 mb-4 ">
                 <div className="flex items-center justify-between gap-5">
                     <div className="">
                         <div className="w-15 h-15 border border-red-50 flex items-center justify-center rounded-full">

@@ -22,7 +22,7 @@ const Cards = ({dataPromise}) => {
             
             {selectedType === 'products' ? <Products cards={cards} selectedCards={selectedCards} setSelectedCards={setSelectedCards}></Products> : <Cart selectedCards={selectedCards} setSelectedCards={setSelectedCards}></Cart>}
             
-            
+             
         </div>
     );
 };
