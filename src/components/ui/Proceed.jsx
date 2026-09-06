@@ -1,7 +1,7 @@
-const Proceed = ({totalPrice, proceedCart}) => {
+const Proceed = ({ totalPrice, proceedCart }) => {
     return (
         <div>
-            <div className="px-50">
+            <div className="lg:px-50 px-5">
                 <div className="flex justify-between my-5">
                     <p className="text-[#627382]">Total:</p>
                     <h3 className="text-[24px] font-bold">${totalPrice}</h3>

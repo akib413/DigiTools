@@ -27,21 +27,21 @@ function App() {
   return (
     <>
 
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <Stats></Stats>
-    <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-      <Cards dataPromise={dataPromise}></Cards>
-    </Suspense>
-    <Steps></Steps>
-    <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-      <Pricing pricePromise={pricePromise}></Pricing>
-    </Suspense>
-    <Workflow></Workflow>
-    <Footer></Footer>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Stats></Stats>
+      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+        <Cards dataPromise={dataPromise}></Cards>
+      </Suspense>
+      <Steps></Steps>
+      <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+        <Pricing pricePromise={pricePromise}></Pricing>
+      </Suspense>
+      <Workflow></Workflow>
+      <Footer></Footer>
 
-    <ToastContainer></ToastContainer>
-    
+      <ToastContainer></ToastContainer>
+
     </>
   )
 }

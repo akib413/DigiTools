@@ -6,12 +6,12 @@ import { LuRocket } from "react-icons/lu";
 const Steps = () => {
     return (
         <div className="font">
-            <div className="px-50 py-20 bg-[#f9fafc] mt-20">
+            <div className="lg:px-50 px-5 py-20 bg-[#f9fafc] mt-20">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-bold mb-2">Get Started in 3 Steps</h2>
                     <p className="text-[16px] text-[#627382]">Start using premium digital tools in minutes, not hours.</p>
                 </div>
-                <div className="flex gap-5">
+                <div className="grid lg:grid-cols-3 gap-5">
                     <div className="shadow-xl p-10 bg-white">
                         <div className="flex justify-end">
                             <p className="w-10 h-10 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white rounded-full flex items-center justify-center">01</p>

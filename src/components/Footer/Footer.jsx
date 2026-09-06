@@ -5,7 +5,7 @@ import { TbBrandInstagramFilled } from "react-icons/tb";
 const Footer = () => {
     return (
         <div className="font">
-            <footer className="footer sm:footer-horizontal bg-[#101727] text-white px-50 py-20">
+            <footer className="footer sm:footer-horizontal bg-[#101727] text-white lg:px-50 px-5 py-20 ">
                 <aside>
                     <h2 className="text-3xl font-bold">DigiTools</h2>
                     <p className="text-[#c4c4c4]">
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <div className="bg-[#101727] text-[#c4c4c4] px-50 py-8">
+            <div className="bg-[#101727] text-[#c4c4c4] lg:px-50 px-5 py-8">
                 <hr />
                 <div className="flex justify-between mt-8">
                     <div className="">

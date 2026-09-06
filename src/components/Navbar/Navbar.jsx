@@ -3,11 +3,11 @@ import { FiShoppingCart } from "react-icons/fi";
 const Navbar = () => {
     return (
         <div className="font">
-            <div className="navbar bg-base-100 shadow-sm px-50">
+            <div className="navbar bg-base-100 shadow-sm lg:px-50 px-5">
                 <div className="navbar-start">
                     <a className="font-bold text-3xl bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">DigiTools</a>
                 </div>
-                <div className="navbar-center flex">
+                <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold">
                         <li><a>Products</a></li>
                         <li><a>Features</a></li>
