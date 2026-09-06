@@ -1,5 +1,5 @@
 # Project Name 
-Digital Tools
+DigiTools
 
 # Description
 Digital Tools is a modern and user-friendly web application that provides a collection of useful digital tools and services in one place.
