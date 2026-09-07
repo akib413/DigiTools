@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Resume Builder",
+    "description": "Create a professional resume with simple and clean templates.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic ATS optimization",
+      "Export to PDF",
+      "Resume customization"
+    ],
+    "icon": "../products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Build an ATS-friendly resume with advanced customization tools.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Advanced ATS optimization",
+      "Export to PDF",
+      "Unlimited editing"
+    ],
+    "icon": "../products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Starter",
+    "description": "A complete toolkit for students and fresh graduates starting their careers.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "150+ templates",
+      "ATS optimization",
+      "Resume builder",
+      "Cover letter builder"
+    ],
+    "icon": "../products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Pro",
+    "description": "Create personalized and professional cover letters quickly.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "50+ cover letter templates",
+      "AI writing suggestions",
+      "Job-specific customization",
+      "Export to PDF"
+    ],
+    "icon": "../products/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Job Search Toolkit",
+    "description": "Everything you need to improve your job search and application process.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Resume builder",
+      "Cover letter builder",
+      "Job application tracker",
+      "Interview preparation"
+    ],
+    "icon": "../products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Premium Career Suite",
+    "description": "An all-in-one career solution for serious job seekers.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "200+ templates",
+      "Advanced ATS optimization",
+      "Unlimited resumes",
+      "Unlimited cover letters"
+    ],
+    "icon": "../products/writing.png"
+  }
+]
