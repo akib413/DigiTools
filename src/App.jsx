@@ -11,12 +11,12 @@ import Footer from './components/Footer/Footer'
 import { ToastContainer } from 'react-toastify'
 
 const fetchData = async () => {
-  const res = await fetch("/data.json")
+  const res = await fetch(`${import.meta.env.BASE_URL}data.json`)
   return res.json()
 }
 
 const fetchPrice = async () => {
-  const res = await fetch("/price.json")
+  const res = await fetch(`${import.meta.env.BASE_URL}price.json`)
   return res.json()
 }
 
