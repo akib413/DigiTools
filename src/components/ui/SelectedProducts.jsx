@@ -15,7 +15,7 @@ const SelectedProducts = ({ card, selectedCards, setSelectedCards }) => {
                 <div className="card-body">
                     <span className={`badge badge-xs px-3 py-3 rounded-full uppercase font-semibold ${card.tagType === 'new' ? 'bg-[#dbfce7] text-[#0a883e]' : card.tagType === 'popular' ? 'bg-[#e1e7ff] text-[#9514fa]' : 'bg-[#fef3c6] text-[#bb4d00]'} ml-auto`}>{card.tagType}</span>
                     <div className="w-15 h-15 border border-red-50 flex items-center justify-center rounded-full">
-                        <img className="w-8 h-8" src={card.icon} alt="" />
+                        <img className="w-8 h-8" src={`${import.meta.env.BASE_URL}${card.icon}`} alt="" />
                     </div>
                     <div className="">
                         <h2 className="text-2xl font-bold">{card.name}</h2>

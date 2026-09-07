@@ -13,7 +13,7 @@
       "Export to PDF",
       "Resume customization"
     ],
-    "icon": "../products/design-tool.png"
+    "icon": "products/design-tool.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Export to PDF",
       "Unlimited editing"
     ],
-    "icon": "../products/operation.png"
+    "icon": "products/operation.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "Resume builder",
       "Cover letter builder"
     ],
-    "icon": "../products/portfolio.png"
+    "icon": "products/portfolio.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Job-specific customization",
       "Export to PDF"
     ],
-    "icon": "../products/shopping-cart.png"
+    "icon": "products/shopping-cart.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Job application tracker",
       "Interview preparation"
     ],
-    "icon": "../products/social-media.png"
+    "icon": "products/social-media.png"
   },
   {
     "id": 6,
@@ -93,6 +93,6 @@
       "Unlimited resumes",
       "Unlimited cover letters"
     ],
-    "icon": "../products/writing.png"
+    "icon": "products/writing.png"
   }
 ]
